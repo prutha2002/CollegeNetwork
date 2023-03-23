@@ -1,0 +1,105 @@
+SECURING ROUTER WITH PASSWORD
+
+ADMINISTRATOR
+Router>en
+Router#configuration terminal
+Router(config)#line console 0
+Router(config-line)#login local
+Router(config-line)#exit
+Router(config)#username admin password admin
+Router(config)#exit
+Router#
+Router>en
+Router#conf t
+Router(config)#enable password admin
+Router(config)#
+Router(config)#exit
+Router#
+
+CENTRAL ROUTER
+Router>en
+Router#configuration terminal
+Router(config)#line console 0
+Router(config-line)#login local
+Router(config-line)#exit
+Router(config)#username admin password admin
+Router(config)#exit
+Router#
+Router>en
+Router#conf t
+Router(config)#enable password admin
+Router(config)#
+Router(config)#exit
+Router#
+
+SERVER ROUTER
+Router>
+Router>en
+Router#configuration terminal
+Router(config)#enable password server
+Router(config)#exit
+Router#
+
+HOSTEL ROUTER
+Router>
+Router>en
+Router#configuration terminal
+Router(config)#enable password hostel
+Router(config)#exit
+Router#
+
+LIBRARY ROUTER
+Router>
+Router>en
+Router#configuration terminal
+Router(config)#enable password library
+Router(config)#exit
+Router#
+
+RECEPTION ROUTER
+Router>
+Router>en
+Router#configuration terminal
+Router(config)#enable password reception
+Router(config)#exit
+Router#
+
+CSE ROUTER
+Router>
+Router>en
+Router#configuration terminal
+Router(config)#enable password cse
+Router(config)#exit
+Router#
+
+ECE ROUTER
+Router>
+Router>en
+Router#configuration terminal
+Router(config)#enable password ece
+Router(config)#exit
+Router#
+
+MECH ROUTER
+Router>
+Router>en
+Router#configuration terminal
+Router(config)#enable password mech
+Router(config)#exit
+Router#
+
+CIVIL ROUTER
+Router>
+Router>en
+Router#configuration terminal
+Router(config)#enable password civil
+Router(config)#exit
+Router#
+
+EEE ROUTER
+Router>
+Router>en
+Router#configuration terminal
+Router(config)#enable password eee
+Router(config)#exit
+Router#

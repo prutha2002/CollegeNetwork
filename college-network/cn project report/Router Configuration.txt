@@ -1,0 +1,16 @@
+ROUTER CONFIGURATION
+
+
+User Access Verification
+
+Username: admin
+Password: 
+
+Router>en
+Password: 
+Router#Router#
+Router#configure terminal
+Router(config)#interface Serial0/0/0
+Router(config-if)#ip address 180.100.108.2 255.255.252.0
+Router(config-if)#no shutdown
+Router(config-if)#

@@ -1,0 +1,9 @@
+RIP CONFIGURATION IN EVERY ROUTER
+ 
+Router>enable
+Router#configure terminal
+Router(config)#router rip
+Router(config-router)#network 180.100.0.0
+Router(config-router)#exit
+Router(config)#exit
+Router#
